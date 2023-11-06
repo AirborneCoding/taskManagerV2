@@ -8,6 +8,9 @@
     "start": "index.js"
   },
   "author": "Zakaria benzzaouia AIRBORNE",
+  "engines": {
+    "node": "18.16.0"
+  },
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1"
