@@ -235,3 +235,21 @@ Employee.aggregate([
   console.log(`Maximum Salary: ${maxSalary}`);
   console.log(`Minimum Salary: ${minSalary}`);
 });
+
+
+------------
+{
+    "version": 2,
+    "builds":[
+        {
+            "src":"./index.js",
+            "use":"@vercel/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(./*)",
+            "dest":"/"
+        }
+    ]
+}
