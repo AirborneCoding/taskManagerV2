@@ -9,11 +9,13 @@ import { Provider } from 'react-redux'
 
 import { ToastContainer } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
+import AppV2 from './AppV2.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      {/* <App /> */}
+      <AppV2 />
       <ToastContainer position='top-center' />
     </Provider>
   </React.StrictMode>,

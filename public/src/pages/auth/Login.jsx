@@ -4,6 +4,7 @@ import { FormInput, SubmitBtn } from "../../components/index"
 import { customFetch } from "../../utils";
 import { login } from "../../redux/slices/authSlice";
 import { useDispatch } from "react-redux"
+// import { Toast } from "react-toastify/dist/components";
 
 
 const Login = () => {
@@ -21,7 +22,7 @@ const Login = () => {
       navigate('/dashboard');
     } catch (error) {
       // console.log(error);
-      toast.error('guest user login error.please try later.');
+      // Toast.error('guest user login error.please try later.');
     }
   };
 
